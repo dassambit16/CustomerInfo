@@ -51,5 +51,3 @@ The project uses Spring Security for authentication and authorization. The `spri
 - **Authentication**: The application supports OAuth2 client authentication. You can customize the authentication process by modifying the configuration in `SecurityConfig.java` class.
 
 - **Authorization**: The project includes basic role-based authorization using the `Role` enum. The `@PreAuthorize` annotation is used in the `UserController` class to restrict access to certain endpoints based on user roles.
-
-For detailed security configuration, refer to the [SecurityConfig](src/main/java/com/assignment/PP_fs11_CustomerInfo/Security/SecurityConfig.java) class.
