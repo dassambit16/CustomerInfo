@@ -1,6 +1,6 @@
 # Spring Boot User Management System
 
-A simple Spring Boot application with RESTful APIs for user management. This project includes backend APIs for user authentication, adding, updating, deleting, and retrieving user information.
+A Spring Boot application with RESTful APIs for user management. This project includes backend APIs for user authentication, authorisation, adding, updating, deleting, and retrieving user information.
 
 ## Table of Contents
 
@@ -10,10 +10,6 @@ A simple Spring Boot application with RESTful APIs for user management. This pro
   - [Prerequisites](#prerequisites)
   - [Running the Application](#running-the-application)
 - [Authentication and Authorization](#authentication-and-authorization)
-- [Frontend](#frontend)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
@@ -57,10 +53,3 @@ The project uses Spring Security for authentication and authorization. The `spri
 - **Authorization**: The project includes basic role-based authorization using the `Role` enum. The `@PreAuthorize` annotation is used in the `UserController` class to restrict access to certain endpoints based on user roles.
 
 For detailed security configuration, refer to the [SecurityConfig](src/main/java/com/assignment/PP_fs11_CustomerInfo/Security/SecurityConfig.java) class.
-
-### Running the Application
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/spring-boot-user-management.git
